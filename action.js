@@ -87,5 +87,5 @@ function risultato(){ //Questa funzione determinerà il risultato del punteggio.
     }
 
     console.log(tasselli);
-    return (point-1);
+    return (point-1); //-1 in quanto conta anche l'eventuale punteggio del numero bomba.
 }
